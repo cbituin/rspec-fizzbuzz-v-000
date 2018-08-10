@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  if num % 3 == 0 && num % 5 == 0 
+  if 
     puts "FizzBuzz"
   elsif num % 3 == 0 
     puts "Fizz"
@@ -10,7 +10,7 @@ def fizzbuzz(num)
     puts "Buzz" 
   else
     puts NIL
-    (x > 10) ? puts("x is greater than 18") : puts("x is not greater than 18")
+    (num % 3 == 0 && num % 5 == 0 ) ? puts("FizzBuzz") : puts(nil)
 
   end
 end
