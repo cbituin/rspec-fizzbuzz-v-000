@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  if 
-    puts "FizzBuzz"
   if num % 3 == 0 
     puts "Fizz"
+  end
   if num % 5 == 0 
     puts "Buzz" 
+  end
   
   (num % 3 == 0 && num % 5 == 0 ) ? puts("FizzBuzz") : puts(nil)
 
