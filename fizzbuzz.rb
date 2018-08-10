@@ -4,13 +4,11 @@
 def fizzbuzz(num)
   if num % 3 == 0 && num % 5 == 0 
     puts "FizzBuzz"
-  if num % 3 == 0 
+  elsif num % 3 == 0 
     puts "Fizz"
-  if num % 5 == 0 
+  elsif num % 5 == 0 
     puts "Buzz" 
   else num % 3 != 0 && num % 5 != 0 
     puts NIL
   end
-end
-end
 end
