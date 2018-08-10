@@ -3,10 +3,10 @@
 
 def fizzbuzz(num)
   if num % 3 == 0 
-    puts "Fizz"
+    "Fizz"
   end
   if num % 5 == 0 
-    puts "Buzz" 
+    "Buzz" 
   end
   
 (num % 3 == 0 && num % 5 == 0 ) ? puts("FizzBuzz") : puts(nil)
