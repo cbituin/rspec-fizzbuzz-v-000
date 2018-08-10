@@ -10,5 +10,7 @@ def fizzbuzz(num)
     puts "Buzz" 
   else
     puts NIL
+    (x > 10) ? puts("x is greater than 18") : puts("x is not greater than 18")
+
   end
 end
